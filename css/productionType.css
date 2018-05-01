@@ -1,0 +1,30 @@
+/*左侧商品栏*/
+.things_type{
+	position: absolute;
+	width: 188px;
+  	top:151px;
+	border: 1px #D7D7D7 solid;
+}
+.things_type h3{
+	text-align: center;
+	line-height: 34px;
+	border-bottom: 1px #D7D7D7 solid;
+}
+.things_type li{
+	padding-left: 23px;	
+	line-height: 31px;
+}
+.things_type li a{
+	margin-right: 32px;
+	
+}
+.dashed{
+	border-bottom: 1px #D7D7D7 dashed;
+}
+/*右侧详情页*/
+.thing_detail{
+	float: right;
+	width: 810px;
+	height: 2000px;
+	background-color: #1369C0;
+}
