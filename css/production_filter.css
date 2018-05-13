@@ -1,0 +1,145 @@
+.middle_part{
+	overflow: hidden;
+}
+.selectbar{
+	width: 188px;
+	float: left;
+	border:1px #D7D7D7 solid;
+}
+.types{
+	background-color: #F3F3F3;
+}
+.left_head{
+	text-align: center;
+	line-height: 35px;
+	font-size: 16px;
+	font-weight: normal;
+	border-bottom: 1px #D7D7D7 solid;
+}
+.type_item{
+	line-height: 20px;
+	padding: 13px 0px;
+	border-bottom: 0.5px #D7D7D7 dashed;
+}
+.type_item h4{
+	text-indent: 10px;
+}
+
+.type_item p{
+	text-indent: 20px;
+}
+.img_item {
+	overflow: hidden;
+}
+.img_item a{
+	float: left;
+	margin: 5px 0px 0px 0px;
+}
+.img_item div{
+	margin-top: 15px;
+	display: inline-block;
+	width: 105px;
+	line-height: 17px;
+}
+
+/*右侧*/
+.production_display{
+	width: 810px;
+	float: right;
+}
+.classify_item{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px  #D7D7D7 solid;
+}
+.classify p{
+	display: inline-block;
+	line-height: 25px;
+	vertical-align: top;
+}
+.select__condition{
+	display: inline-block;
+	width: 500px;
+	color: #1D7AD9;
+	//background-color: red;
+}
+
+.select__condition p {
+	width: 120px;
+}
+.no_condition{
+	width: 92px;
+	color: #1D7AD9;
+	text-align: center;
+}
+.type_i{
+	color:#656565;
+	width: 80px;
+	text-align: right;
+}
+.opt{
+	//display: block;
+	background-color: #096DBA;
+	color: white;
+}
+
+/* 配送条件*/
+.send{
+	margin-top: 15px;
+	line-height: 50px;
+	background-color: #F5F5F5;
+	overflow: hidden;
+}
+.address{
+	float: left;
+	margin-left: 12px;
+}
+.pronum{
+	float: right;
+	margin-right: 30px;
+	
+}
+.pronum input{
+	vertical-align: text-bottom;
+	text-indent:3px;
+}
+.red{
+	color: red;
+	font-weight: bolder;
+}
+.pronum span{
+	margin-left: 10px;
+}
+
+/*底下的商品*/
+.produc_dis{
+	overflow: hidden;
+}
+.pro_item{
+	margin: 0px 20px 0px 20px ;
+	float: left;
+	height: 350px;
+	width: 200px;
+	padding: 0px 10px 0px 10px;
+}
+.pro_img{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.num_cri{
+	color: #096DBA;
+}
+.val_cri{
+	margin: 10px 0px 10px 0px;
+}
+.add{
+	display: inline-block;
+	color: #3A7ABA;
+	border: 1px #C3D5E7 solid;
+	width: 90px;
+	line-height: 25px;
+	text-indent: 25px;
+	background: url(../icon/16.gif) left center no-repeat ;
+}

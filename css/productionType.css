@@ -1,30 +1,92 @@
 /*左侧商品栏*/
-.things_type{
+
+.things_type {
 	position: absolute;
 	width: 188px;
-  	top:151px;
+	top: 151px;
 	border: 1px #D7D7D7 solid;
 }
-.things_type h3{
+
+.things_type h3 {
 	text-align: center;
 	line-height: 34px;
 	border-bottom: 1px #D7D7D7 solid;
 }
-.things_type li{
-	padding-left: 23px;	
+
+.things_type li {
+	padding-left: 23px;
 	line-height: 31px;
 }
-.things_type li a{
+
+.things_type li a {
 	margin-right: 32px;
-	
 }
-.dashed{
+
+.dashed {
 	border-bottom: 1px #D7D7D7 dashed;
 }
+
+
 /*右侧详情页*/
-.thing_detail{
+.detil{
+	overflow: hidden;
+}
+.thing_detail {
 	float: right;
 	width: 810px;
-	height: 2000px;
-	background-color: #1369C0;
+	//height: 2000px;
+	//background-color: #1369C0;
+	 
+}
+.one_type{
+	padding-bottom: 30px;
+}
+.thing_detail .head {
+	height: 38px;
+	line-height: 38px;
+	text-indent: 10px;
+	border-bottom: 2px #CCCCCC  solid ;
+}
+.thing_detail .head h3{
+	height: 38px;
+	width: 180px;
+	border-bottom: 2px #096DBA  solid ;
+}
+.thing_detail .itemArray .things {
+	overflow: hidden;
+}
+.thing_detail .itemArray .things li{
+	float:left ;
+	height: 281px;
+	width: 182px;
+	padding: 0px 10px 0px 10px;
+}
+.things  ul li a{
+	display: inline-block;
+	text-align: center;
+	margin:40px 0px 32px 0px ;
+}
+.things  ul li a img{
+	height: 122px;
+	width: 178px;
+}
+.things .intr{
+	margin-left: 5px;
+	margin-bottom: 17px ;
+}
+.things .val{
+	color: red;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.things .evalit{
+	margin-left: 5px;
+}
+.things .evalit span{
+	display: inline-block;
+	background:url(../icon/13.jpg)left  center no-repeat;
+	height: 16px;
+	width: 16px;
+	vertical-align: top;
 }
